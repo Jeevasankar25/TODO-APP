@@ -1,0 +1,13 @@
+/* Force black text for all Paper TextInput fields on web */
+input.rnp-input,
+textarea.rnp-input {
+    color: #000 !important;
+}
+
+/* Also force black text for any input/textarea inside a modal */
+.Portal-root input,
+.Portal-root textarea,
+.Modal-root input,
+.Modal-root textarea {
+    color: #000 !important;
+}
